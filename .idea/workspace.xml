@@ -82,7 +82,7 @@
           <file leaf-file-name="LeapYear.scala" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/leap_year/LeapYear.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.23908919" vertical-offset="0" max-vertical-offset="527">
+                <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.17077799" vertical-offset="0" max-vertical-offset="527">
                   <folding />
                 </state>
               </provider>
@@ -940,7 +940,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/leap_year/LeapYear.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.23908919" vertical-offset="0" max-vertical-offset="527">
+        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.17077799" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>

@@ -3,8 +3,7 @@ package org.craftmanship.leap_year
 
 class Year(year: Int) {
   def isLeapYear: Boolean = {
-    if (isNotDivisibleBy4) return false
-    if (isNotDivisibleBy100 && isDivisibleBy400) return false
+    if (isNotDivisibleBy4 || isNotDivisibleBy100 && isDivisibleBy400) return false
     true
   }
 
