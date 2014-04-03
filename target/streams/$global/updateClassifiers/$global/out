@@ -1,0 +1,272 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77c143b0[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2242b3b8[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.1.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.10;2.1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3561b92f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalamock#scalamock-scalatest-support_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f732bf4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalamock#scalamock-scalatest-support_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalamock#scalamock-scalatest-support_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalamock#scalamock-scalatest-support_2.10;3.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalamock#scalamock-core_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@262f6ea6[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalamock#scalamock-core_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalamock#scalamock-core_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalamock#scalamock-core_2.10;3.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mockito#mockito-all;1.9.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@193cd9ef[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mockito#mockito-all;1.9.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mockito#mockito-all;1.9.5[0m
+[0m[[0mdebug[0m] [0m	found org.mockito#mockito-all;1.9.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scalamock#scalamock-core_2.10;3.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.mockito#mockito-all;1.9.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/richarv/projects/craftmanship/target/resolution-cache/social_networking_kata/social_networking_kata$sources_javadoc_2.10/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.1.0!scalatest_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.1.0!scalatest_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.1.0!scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamock#scalamock-scalatest-support_2.10;3.0.1!scalamock-scalatest-support_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamock#scalamock-scalatest-support_2.10;3.0.1!scalamock-scalatest-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamock#scalamock-scalatest-support_2.10;3.0.1!scalamock-scalatest-support_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamock#scalamock-core_2.10;3.0.1!scalamock-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamock#scalamock-core_2.10;3.0.1!scalamock-core_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalamock#scalamock-core_2.10;3.0.1!scalamock-core_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-all;1.9.5!mockito-all.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-all;1.9.5!mockito-all.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-all;1.9.5!mockito-all.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 513ms :: artifacts dl 44ms[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 compile produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 runtime produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 test produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 provided produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 optional produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 compile-internal produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 runtime-internal produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 test-internal produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 plugin produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 sources produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 docs produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 pom produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for social_networking_kata#social_networking_kata$sources_javadoc_2.10;1.0 scala-tool produced in /home/richarv/projects/craftmanship/target/resolution-cache/reports/social_networking_kata-social_networking_kata$sources_javadoc_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (513ms resolve - 44ms download)[0m
