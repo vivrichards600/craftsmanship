@@ -66,37 +66,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="User.scala" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserService.scala" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.21035059" vertical-offset="0" max-vertical-offset="599">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserValidation.scala" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="UserValidation.scala" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="28" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+                <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.15025042" vertical-offset="0" max-vertical-offset="599">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BDDMockito.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/BDDMockito.java">
+          <file leaf-file-name="Validator.scala" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="51" selection-start="3164" selection-end="3173" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="6030">
+                <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
                   <folding />
                 </state>
               </provider>
@@ -106,10 +88,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="UserServiceSpec.scala" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="UserServiceSpec.scala" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="7" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.39565945" vertical-offset="501" max-vertical-offset="1332">
+                <state line="5" column="31" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
+                  <folding>
+                    <element signature="e#42#79#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserValidationSpec.scala" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="30" column="46" selection-start="889" selection-end="889" vertical-scroll-proportion="0.9015025" vertical-offset="0" max-vertical-offset="882">
                   <folding>
                     <element signature="e#42#79#0" expanded="true" />
                   </folding>
@@ -147,8 +140,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserRepository.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala" />
       </list>
     </option>
@@ -472,37 +468,7 @@
       <recent name="org.craftmanship.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.UserServiceSpec (1)">
-    <configuration default="false" name="LeapYearSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="social_networking_kata" />
-      <setting name="path" value="org.craftmanship.leap_year.LeapYearSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="YearSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="social_networking_kata" />
-      <setting name="path" value="org.craftmanship.leap_year.YearSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.UserValidationSpec">
     <configuration default="false" name="UserServiceSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="social_networking_kata" />
       <setting name="path" value="org.craftmanship.user_service.UserServiceSpec" />
@@ -536,6 +502,30 @@
     <configuration default="false" name="UserServiceSpec (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="social_networking_kata" />
       <setting name="path" value="org.craftmanship.user_validation.UserServiceSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="social_networking_kata" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserValidationSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="social_networking_kata" />
+      <setting name="path" value="org.craftmanship.user_validation.UserValidationSpec" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -709,19 +699,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.LeapYearSpec" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.YearSpec" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.UserSpec" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec (1)" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.UserSpec" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.UserValidationSpec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec (1)" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.UserSpec" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.YearSpec" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.LeapYearSpec" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.UserValidationSpec" />
+        <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec (1)" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.UserSpec" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -937,9 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="36" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="684">
-          <folding>
-            <element signature="e#39#76#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +947,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="198" />
+        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="198">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/roman_numerals/RomanNumeralConverterSpec.scala">
@@ -1043,7 +1033,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06020067" vertical-offset="0" max-vertical-offset="598" />
+        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06020067" vertical-offset="0" max-vertical-offset="598">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
@@ -1067,39 +1059,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="629" selection-end="639" vertical-scroll-proportion="0.4385382" vertical-offset="0" max-vertical-offset="903">
-          <folding>
-            <element signature="e#39#76#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.09015025" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/BDDMockito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="51" selection-start="3164" selection-end="3173" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="6030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
@@ -1111,9 +1073,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.120200336" vertical-offset="0" max-vertical-offset="599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/BDDMockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="51" selection-start="3164" selection-end="3173" vertical-scroll-proportion="0.3327645" vertical-offset="1389" max-vertical-offset="6030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="629" selection-end="639" vertical-scroll-proportion="0.51919866" vertical-offset="49" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.15025042" vertical-offset="0" max-vertical-offset="599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="7" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.39565945" vertical-offset="501" max-vertical-offset="1332">
+        <state line="5" column="31" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
+          <folding>
+            <element signature="e#42#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="46" selection-start="889" selection-end="889" vertical-scroll-proportion="0.9015025" vertical-offset="0" max-vertical-offset="882">
           <folding>
             <element signature="e#42#79#0" expanded="true" />
           </folding>
