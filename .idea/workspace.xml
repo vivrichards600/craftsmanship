@@ -63,7 +63,7 @@
     <favorites_list name="craftmanship" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5970149">
       <split-first>
         <leaf>
           <file leaf-file-name="User.scala" pinned="false" current="false" current-in-tab="false">
@@ -78,7 +78,7 @@
           <file leaf-file-name="UserService.scala" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="116" selection-start="236" selection-end="236" vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="585">
+                <state line="16" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.48160535" vertical-offset="0" max-vertical-offset="598">
                   <folding />
                 </state>
               </provider>
@@ -91,7 +91,7 @@
           <file leaf-file-name="UserServiceSpec.scala" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="28" selection-start="972" selection-end="972" vertical-scroll-proportion="0.46488294" vertical-offset="244" max-vertical-offset="918">
+                <state line="8" column="3" selection-start="227" selection-end="227" vertical-scroll-proportion="0.22051282" vertical-offset="15" max-vertical-offset="918">
                   <folding>
                     <element signature="e#42#79#0" expanded="true" />
                   </folding>
@@ -1043,15 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="972" selection-end="972" vertical-scroll-proportion="0.46488294" vertical-offset="244" max-vertical-offset="918">
-          <folding>
-            <element signature="e#42#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -1059,9 +1050,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="227" selection-end="227" vertical-scroll-proportion="0.22051282" vertical-offset="15" max-vertical-offset="918">
+          <folding>
+            <element signature="e#42#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="116" selection-start="236" selection-end="236" vertical-scroll-proportion="0.15384616" vertical-offset="0" max-vertical-offset="585">
+        <state line="16" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.48160535" vertical-offset="0" max-vertical-offset="598">
           <folding />
         </state>
       </provider>
