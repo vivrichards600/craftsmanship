@@ -66,19 +66,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="UserValidation.scala" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
+          <file leaf-file-name="BankStatementAcceptanceTest.scala" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.15025042" vertical-offset="0" max-vertical-offset="599">
+                <state line="28" column="31" selection-start="674" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Validator.scala" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
+          <file leaf-file-name="AccountSpec.scala" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+                <state line="15" column="15" selection-start="358" selection-end="374" vertical-scroll-proportion="0.39" vertical-offset="0" max-vertical-offset="648">
                   <folding />
                 </state>
               </provider>
@@ -88,24 +88,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="UserServiceSpec.scala" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
+          <file leaf-file-name="Account.scala" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="31" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
-                  <folding>
-                    <element signature="e#42#79#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserValidationSpec.scala" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="46" selection-start="889" selection-end="889" vertical-scroll-proportion="0.9015025" vertical-offset="0" max-vertical-offset="882">
-                  <folding>
-                    <element signature="e#42#79#0" expanded="true" />
-                  </folding>
+                <state line="10" column="3" selection-start="30" selection-end="177" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="600">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -125,11 +112,9 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/stack/StackSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/spec/UnitSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/stack/StackSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/roman_numeral/RomanNumeralConverter.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/roman_numerals/RomanNumeralConverterSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/package.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/leap_year/LeapYearSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/leap_year/YearSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/leap_year/LeapYear.scala" />
@@ -146,14 +131,23 @@
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/package.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/AcceptanceSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Printer.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/UnitSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/spec/UnitSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1085" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -181,6 +175,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,8 +223,34 @@
               <option name="myItemId" value="craftmanship" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user_validation" />
+              <option name="myItemId" value="craftmanship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftmanship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craftmanship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leap_year" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,7 +280,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user_service" />
+              <option name="myItemId" value="bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,33 +314,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="craftmanship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="craftmanship" />
+              <option name="myItemId" value="bank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="craftmanship" />
+              <option name="myItemId" value="acceptance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,10 +365,6 @@
               <option name="myItemId" value="craftmanship" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user_validation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -393,33 +392,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user_service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="craftmanship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="craftmanship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="craftmanship" />
+              <option name="myItemId" value="bank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,7 +416,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -464,56 +436,15 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.craftmanship.bank.unit" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.craftmanship.bank.acceptance" />
       <recent name="org.craftmanship.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.UserValidationSpec">
-    <configuration default="false" name="UserServiceSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="social_networking_kata" />
-      <setting name="path" value="org.craftmanship.user_service.UserServiceSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="social_networking_kata" />
-      <setting name="path" value="org.craftmanship.user_validation.UserSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserServiceSpec (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="social_networking_kata" />
-      <setting name="path" value="org.craftmanship.user_validation.UserServiceSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ScalaTests in 'bank'">
     <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
       <module name="social_networking_kata" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
@@ -526,6 +457,51 @@
     <configuration default="false" name="UserValidationSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="social_networking_kata" />
       <setting name="path" value="org.craftmanship.user_validation.UserValidationSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScalaTests in 'bank'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
+      <module name="social_networking_kata" />
+      <setting name="path" value="" />
+      <setting name="package" value="org.craftmanship.bank" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="All in package" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BankStatementAcceptanceTest.Feature: Print bank statement Scenario: Printing statement from a bank account with no transactions" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="social_networking_kata" />
+      <setting name="path" value="org.craftmanship.bank.acceptance.BankStatementAcceptanceTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Feature: Print bank statement Scenario: Printing statement from a bank account with no transactions" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BankStatementAcceptanceTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="social_networking_kata" />
+      <setting name="path" value="org.craftmanship.bank.acceptance.BankStatementAcceptanceTest" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -699,19 +675,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.UserSpec" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.UserValidationSpec" />
+      <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.UserValidationSpec" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'bank'" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.BankStatementAcceptanceTest.Feature: Print bank statement Scenario: Printing statement from a bank account with no transactions" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.BankStatementAcceptanceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.UserValidationSpec" />
-        <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec (1)" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.UserServiceSpec" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.UserSpec" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ScalaTests in 'bank'" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.BankStatementAcceptanceTest" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.BankStatementAcceptanceTest.Feature: Print bank statement Scenario: Printing statement from a bank account with no transactions" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.UserValidationSpec" />
+        <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -827,7 +803,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -837,7 +813,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32583067" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -848,7 +824,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21393035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32583067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32475883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -878,78 +854,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
+        <state line="25" column="24" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="396">
+        <state line="15" column="56" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="468">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="918">
-          <folding>
-            <element signature="e#42#79#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="5" column="31" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="846" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding>
-            <element signature="e#42#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="234">
-          <folding />
-        </state>
+        <state line="30" column="46" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="198">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="22" column="36" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="684" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/UserRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/UserService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="288">
-          <folding />
-        </state>
+        <state line="5" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="198">
-          <folding />
-        </state>
+        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/roman_numerals/RomanNumeralConverterSpec.scala">
@@ -974,9 +967,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/stack/StackSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="666">
-          <folding />
-        </state>
+        <state line="2" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/spec/UnitSpec.scala">
@@ -1009,120 +1000,121 @@
         <state line="5" column="16" selection-start="162" selection-end="162" vertical-scroll-proportion="0.17077799" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/leap_year/YearSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="606" selection-end="606" vertical-scroll-proportion="0.81973433" vertical-offset="0" max-vertical-offset="558" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/spec/UnitSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="118" selection-end="118" vertical-scroll-proportion="0.11960133" vertical-offset="0" max-vertical-offset="903" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/scala/Predef.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="251" column="51" selection-start="12328" selection-end="12359" vertical-scroll-proportion="0.33258426" vertical-offset="4006" max-vertical-offset="8208" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/stack/StackSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="271" selection-end="327" vertical-scroll-proportion="0.33110368" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06020067" vertical-offset="0" max-vertical-offset="598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1472" column="24" selection-start="65582" selection-end="65582" vertical-scroll-proportion="0.3327645" vertical-offset="26049" max-vertical-offset="38952">
-          <folding />
-        </state>
+        <state line="2" column="3" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06020067" vertical-offset="0" max-vertical-offset="598" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/UserRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.24040067" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.24040067" vertical-offset="0" max-vertical-offset="599" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_service/UserService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.15025042" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
+        <state line="5" column="6" selection-start="161" selection-end="161" vertical-scroll-proportion="0.15025042" vertical-offset="0" max-vertical-offset="599" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.09015025" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
+        <state line="3" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.09015025" vertical-offset="0" max-vertical-offset="599" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.21035059" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
+        <state line="7" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.21035059" vertical-offset="0" max-vertical-offset="599" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.120200336" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.120200336" vertical-offset="0" max-vertical-offset="599" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/BDDMockito.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="51" selection-start="3164" selection-end="3173" vertical-scroll-proportion="0.3327645" vertical-offset="1389" max-vertical-offset="6030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="629" selection-end="639" vertical-scroll-proportion="0.51919866" vertical-offset="49" max-vertical-offset="648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.15025042" vertical-offset="0" max-vertical-offset="599">
-          <folding />
-        </state>
+        <state line="93" column="51" selection-start="3164" selection-end="3173" vertical-scroll-proportion="0.3327645" vertical-offset="1389" max-vertical-offset="6030" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
-          <folding>
-            <element signature="e#42#79#0" expanded="true" />
-          </folding>
+        <state line="5" column="31" selection-start="182" selection-end="182" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.mockito/mockito-all/srcs/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1482" column="6" selection-start="65965" selection-end="65966" vertical-scroll-proportion="0.53483146" vertical-offset="25948" max-vertical-offset="38952">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.179402" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.059800666" vertical-offset="0" max-vertical-offset="903" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserValidationSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="889" selection-end="889" vertical-scroll-proportion="0.9015025" vertical-offset="0" max-vertical-offset="882">
-          <folding>
-            <element signature="e#42#79#0" expanded="true" />
-          </folding>
+        <state line="30" column="35" selection-start="878" selection-end="878" vertical-scroll-proportion="0.59800667" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/spec/UnitSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.09" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Printer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.12" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/stack/StackSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="199" selection-end="341" vertical-scroll-proportion="0.39" vertical-offset="0" max-vertical-offset="702" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/user_service/UserServiceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="629" selection-end="639" vertical-scroll-proportion="0.3986711" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/leap_year/YearSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="606" selection-end="606" vertical-scroll-proportion="0.47840533" vertical-offset="0" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="31" selection-start="674" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="358" selection-end="374" vertical-scroll-proportion="0.39" vertical-offset="0" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="30" selection-end="177" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="600">
+          <folding />
         </state>
       </provider>
     </entry>
