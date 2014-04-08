@@ -35,6 +35,23 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
 
     }
 
+    scenario("statement containing one withdrawal"){
+
+      Given("a bank account with one withdrawal")
+      val account = application createNewAccount()
+      application setDateTo(2014, 04, 01)
+      account.withdrawal(-100)
+
+      When("when I print a statement")
+      account printStatement
+
+      Then("the statement should have one withdrawal")
+      application checkThatPrinterReceives (List(
+        "DATE AMOUNT BALANCE",
+        "01/04/2014 -100.00 -100.00"
+      ))
+
+    }
     
   }
 }

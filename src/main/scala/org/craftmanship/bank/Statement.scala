@@ -8,12 +8,12 @@ class Statement(printer: Printer) {
   val STATEMENT_HEADER = "DATE AMOUNT BALANCE"
   var balance = 0d
 
-  def print(transactions: List[Deposit]) {
+  def print(transactions: List[Transaction]) {
     val statementLines = transactions map toStatementLine
     printer print(STATEMENT_HEADER +: statementLines)
   }
 
-  private def toStatementLine(transaction: Deposit): String = {
+  private def toStatementLine(transaction: Transaction): String = {
     balance += transaction.amount
 
     formatDate(transaction.date) + " " + formatAmount(transaction.amount) + " " + formatAmount(balance)

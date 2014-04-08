@@ -4,7 +4,7 @@ import org.craftmanship.spec.UnitSpec
 import org.craftmanship.bank._
 import org.mockito.Mockito._
 import org.mockito.BDDMockito._
-import org.craftmanship.bank.Deposit
+import org.craftmanship.bank.Transaction
 import java.util.Date
 
 class AccountSpec extends UnitSpec {
@@ -26,7 +26,20 @@ class AccountSpec extends UnitSpec {
 
       account.printStatement
 
-      verify(statement).print(List(Deposit(currentDate, 100),Deposit(currentDate, 100)))
+      verify(statement).print(List(Transaction(currentDate, 100),Transaction(currentDate, 100)))
+    }
+  }
+
+  "An account with some withdrawals" should {
+    "print a statement containing all the deposits" in new context {
+      given(clock.currentDate) willReturn(currentDate)
+
+      account.withdrawal(-100)
+      account.withdrawal(-100)
+
+      account.printStatement
+
+      verify(statement).print(List(Transaction(currentDate, -100),Transaction(currentDate, -100)))
     }
   }
 
