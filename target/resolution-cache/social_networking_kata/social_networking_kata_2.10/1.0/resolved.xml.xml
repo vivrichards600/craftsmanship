@@ -4,7 +4,7 @@
 		module="social_networking_kata_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140403084913"
+		publication="20140408093725"
 	>
 		<description>
 		social_networking_kata
@@ -37,5 +37,7 @@
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.1.0" conf="test->default(compile)"/>
 		<dependency org="org.scalamock" name="scalamock-scalatest-support_2.10" rev="3.0.1" conf="test->default(compile)"/>
 		<dependency org="org.mockito" name="mockito-all" rev="1.9.5" conf="test->default(compile)"/>
+		<dependency org="joda-time" name="joda-time" rev="2.3" conf="compile->default(compile)"/>
+		<dependency org="org.joda" name="joda-convert" rev="1.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

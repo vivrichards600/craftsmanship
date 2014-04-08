@@ -4,7 +4,7 @@
 		module="social_networking_kata$sources_javadoc_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140403092539"
+		publication="20140408093734"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -24,15 +24,23 @@
 	<publications>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)">
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
 			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="joda-time" name="joda-time" rev="2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="joda-time" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="joda-time" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.joda" name="joda-convert" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="joda-convert" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="joda-convert" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.1.0" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="scalatest_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scalatest_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.3" transitive="false" conf="test->default(compile);test-internal->default(compile);scala-tool->default(compile)">
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.3" transitive="false" conf="test->default(compile);test-internal->default(compile);scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.3/">
 			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>

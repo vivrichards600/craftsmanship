@@ -1,13 +1,21 @@
 package org.craftmanship.bank
 
-class Account(printer: Printer) {
+import scala.collection.mutable
+
+
+class Account(statement: Statement, clock: Clock) {
+
+  val transactions: mutable.MutableList[Deposit] = mutable.MutableList()
 
   def printStatement {
-    printer.print(List("DATE AMOUNT BALANCE"))
+    statement.print(transactions.toList)
+//    printer.print(List("DATE AMOUNT BALANCE", transaction.toString))
   }
 
   def deposit(amount: Double) {
-
+    transactions += Deposit(amount, clock.currentDate)
+//      transactions add (new Deposit(amount, clock.currentDate))
   }
+
 
 }

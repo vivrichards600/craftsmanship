@@ -8,14 +8,15 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
     scenario("statement with no transactions") {
 
       Given("a bank account with no transactions")
-      val printer = mock[Printer]
-      val account = new Account(printer)
+      val statement = mock[Statement]
+      val clock = mock[Clock]
+      val account = new Account(statement, clock)
 
       When("when I print a statement")
       account.printStatement
 
       Then("the statement should have no transactions")
-      verify(printer).print(List("DATE AMOUNT BALANCE"))
+      verify(statement).print(List())
 
     }
 
@@ -23,14 +24,19 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
 
       Given("a bank account with one deposit")
       val printer = mock[Printer]
-      val account = new Account(printer)
+      val clock = mock[Clock]
+      val statement = new Statement(printer)
+      val account = new Account(statement, clock)
       account.deposit(100)
 
       When("when I print a statement")
       account.printStatement
 
       Then("the statement should have one deposit")
-      verify(printer).print(List("DATE AMOUNT BALANCE", "01/04/2014 100.00 100.00"))
+      verify(printer).print(List(
+          "DATE AMOUNT BALANCE",
+          "01/04/2014 100.00 100.00"
+      ))
 
     }
   }
