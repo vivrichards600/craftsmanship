@@ -4,7 +4,10 @@ import org.scalatest._
 import org.scalatest.mock.MockitoSugar
 import org.mockito.Mockito._
 
-abstract class AcceptanceSpec extends FeatureSpec with MockitoSugar with GivenWhenThen {
+abstract class AcceptanceSpec extends FeatureSpec
+                              with MockitoSugar
+                              with GivenWhenThen
+                              with BankKataDSL {
 
 
 }

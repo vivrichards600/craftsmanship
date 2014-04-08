@@ -5,33 +5,36 @@ import org.craftmanship.bank._
 import org.mockito.Mockito._
 import org.mockito.BDDMockito._
 import org.craftmanship.bank.Deposit
+import java.util.Date
 
 class AccountSpec extends UnitSpec {
 
   "Empty Account" should {
-    "print an empty statement" in {
-      val statement = mock[Statement]
-      val clock = mock[Clock]
-      val account = new Account(statement, clock)
-
+    "print an empty statement" in new context {
       account.printStatement
 
       verify(statement).print(List())
     }
   }
 
-  "An account with one deposit" should {
-    "print a statement containing one deposit" in {
-      val statement = mock[Statement]
-      val clock = mock[Clock]
-      given(clock.currentDate) willReturn("08/04/2014")
-      val account = new Account(statement, clock)
+  "An account with some deposits" should {
+    "print a statement containing all the deposits" in new context {
+      given(clock.currentDate) willReturn(currentDate)
+
+      account.deposit(100)
       account.deposit(100)
 
       account.printStatement
 
-      verify(statement).print(List(Deposit(100, clock.currentDate)))
+      verify(statement).print(List(Deposit(100, currentDate),Deposit(100, currentDate)))
     }
+  }
+
+  trait context {
+    val statement = mock[Statement]
+    val clock = mock[Clock]
+    val currentDate = new Date
+    val account = new Account(statement, clock)
   }
 
 }

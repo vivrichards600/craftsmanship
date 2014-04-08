@@ -1,7 +1,9 @@
 package org.craftmanship.bank
 
+import java.util.Date
+
 class Clock {
-  def currentDate : String = {
-    "08/04/2014"
+  def currentDate : Date = {
+    null
   }
 }

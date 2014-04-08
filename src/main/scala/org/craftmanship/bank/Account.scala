@@ -9,12 +9,10 @@ class Account(statement: Statement, clock: Clock) {
 
   def printStatement {
     statement.print(transactions.toList)
-//    printer.print(List("DATE AMOUNT BALANCE", transaction.toString))
   }
 
   def deposit(amount: Double) {
     transactions += Deposit(amount, clock.currentDate)
-//      transactions add (new Deposit(amount, clock.currentDate))
   }
 
 

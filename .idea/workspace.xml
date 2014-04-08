@@ -66,11 +66,42 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="BankStatementAcceptanceTest.scala" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="BankStatementAcceptanceTest.scala" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="864">
+                <state line="29" column="30" selection-start="824" selection-end="824" vertical-scroll-proportion="0.627907" vertical-offset="36" max-vertical-offset="810">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AcceptanceSpec.scala" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="46" selection-start="316" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BankKataDSL.scala" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankKataDSL.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="32" selection-start="495" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+                  <folding>
+                    <element signature="e#42#80#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StatementSpec.scala" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/StatementSpec.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="31" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+                  <folding>
+                    <element signature="e#36#73#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -78,17 +109,10 @@
           <file leaf-file-name="AccountSpec.scala" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="29" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Clock.scala" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Clock.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.23773585" vertical-offset="0" max-vertical-offset="530">
-                  <folding />
+                <state line="28" column="88" selection-start="676" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="828">
+                  <folding>
+                    <element signature="e#36#73#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -97,10 +121,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Account.scala" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Account.scala" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="53" selection-start="417" selection-end="417" vertical-scroll-proportion="0.509434" vertical-offset="0" max-vertical-offset="530">
+                <state line="10" column="36" selection-start="219" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
                   <folding />
                 </state>
               </provider>
@@ -109,16 +133,16 @@
           <file leaf-file-name="Deposit.scala" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Deposit.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+                <state line="4" column="42" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Statement.scala" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Statement.scala" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Statement.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="18" selection-start="85" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+                <state line="4" column="46" selection-start="156" selection-end="156" vertical-scroll-proportion="0.09011264" vertical-offset="0" max-vertical-offset="799">
                   <folding />
                 </state>
               </provider>
@@ -159,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/user_validation/UserServiceSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/package.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/AcceptanceSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Printer.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/UnitSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/spec/UnitSpec.scala" />
@@ -167,12 +190,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Date.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/TransactionDate.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Transaction.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Statement.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Deposit.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Clock.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Deposit.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/StatementSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Statement.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankKataDSL.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala" />
       </list>
     </option>
   </component>
@@ -497,6 +523,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala/org/craftmanship/stack" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesScala" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -871,14 +898,41 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21393035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32448733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21393035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293124" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21393035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256936" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -901,18 +955,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserValidation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="252" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/Validator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="198" />
@@ -1112,27 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24371374" vertical-offset="0" max-vertical-offset="517">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Printer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.06805293" vertical-offset="0" max-vertical-offset="529">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Statement.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="85" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/user_validation/UserService.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.24371374" vertical-offset="0" max-vertical-offset="517">
@@ -1147,37 +1168,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Clock.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.23773585" vertical-offset="0" max-vertical-offset="530">
+        <state line="6" column="8" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Deposit.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+        <state line="4" column="42" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Account.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="417" selection-end="417" vertical-scroll-proportion="0.509434" vertical-offset="0" max-vertical-offset="530">
+        <state line="10" column="36" selection-start="219" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Printer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.06805293" vertical-offset="0" max-vertical-offset="529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/craftmanship/bank/Statement.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="156" selection-end="156" vertical-scroll-proportion="0.09011264" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/StatementSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding>
+            <element signature="e#36#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/unit/AccountSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="88" selection-start="676" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="828">
+          <folding>
+            <element signature="e#36#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankKataDSL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="495" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding>
+            <element signature="e#42#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/AcceptanceSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="46" selection-start="316" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/org/craftmanship/bank/acceptance/BankStatementAcceptanceTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="30" selection-start="824" selection-end="824" vertical-scroll-proportion="0.627907" vertical-offset="36" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
