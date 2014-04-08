@@ -34,8 +34,8 @@ class AccountSpec extends UnitSpec {
     "print a statement containing all the deposits" in new context {
       given(clock.currentDate) willReturn(currentDate)
 
-      account.withdrawal(-100)
-      account.withdrawal(-100)
+      account.withdrawal(100)
+      account.withdrawal(100)
 
       account.printStatement
 

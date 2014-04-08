@@ -22,9 +22,9 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       val account = application createNewAccount()
       application setDateTo(2014, 04, 01)
       account.deposit(100)
-      account.withdrawal(-50)
+      account.withdrawal(50)
       account.deposit(100)
-      account.withdrawal(-100)
+      account.withdrawal(100)
 
       When("when I print a statement")
       account printStatement

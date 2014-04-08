@@ -16,7 +16,7 @@ class Account(statement: Statement, clock: Clock) {
   }
 
   def withdrawal(amount: Double) {
-    transactions += Transaction(clock.currentDate, amount)
+    transactions += Transaction(clock.currentDate, -amount)
   }
 
 }
