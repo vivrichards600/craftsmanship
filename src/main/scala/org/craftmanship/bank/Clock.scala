@@ -4,6 +4,6 @@ import java.util.Date
 
 class Clock {
   def currentDate : Date = {
-    null
+    new Date
   }
 }
