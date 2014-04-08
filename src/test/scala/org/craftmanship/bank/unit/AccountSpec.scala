@@ -26,7 +26,7 @@ class AccountSpec extends UnitSpec {
 
       account.printStatement
 
-      verify(statement).print(List(Deposit(100, currentDate),Deposit(100, currentDate)))
+      verify(statement).print(List(Deposit(currentDate, 100),Deposit(currentDate, 100)))
     }
   }
 

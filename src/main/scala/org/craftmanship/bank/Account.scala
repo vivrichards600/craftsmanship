@@ -12,7 +12,7 @@ class Account(statement: Statement, clock: Clock) {
   }
 
   def deposit(amount: Double) {
-    transactions += Deposit(amount, clock.currentDate)
+    transactions += Deposit(clock.currentDate, amount)
   }
 
 

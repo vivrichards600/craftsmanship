@@ -21,6 +21,7 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
 
       Given("a bank account with one deposit")
       val account = application createNewAccount()
+      application setDateTo(2014, 04, 01)
       account.deposit(100)
 
       When("when I print a statement")
