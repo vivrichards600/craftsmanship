@@ -13,7 +13,7 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       account printStatement
 
       Then("the statement should have no transactions")
-      application checkThatPrinterReceives (List("DATE AMOUNT BALANCE"))
+      application checkThatPrinterReceives List("DATE AMOUNT BALANCE")
 
     }
 
@@ -28,10 +28,10 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       account printStatement
 
       Then("the statement should have one deposit")
-      application checkThatPrinterReceives (List(
+      application checkThatPrinterReceives List(
           "DATE AMOUNT BALANCE",
           "01/04/2014 100.00 100.00"
-      ))
+      )
 
     }
 
@@ -46,10 +46,10 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       account printStatement
 
       Then("the statement should have one withdrawal")
-      application checkThatPrinterReceives (List(
+      application checkThatPrinterReceives List(
         "DATE AMOUNT BALANCE",
         "01/04/2014 -100.00 -100.00"
-      ))
+      )
 
     }
     
