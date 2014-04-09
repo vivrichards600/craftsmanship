@@ -15,7 +15,6 @@ class Statement(printer: Printer) {
 
   private def toStatementLine(transaction: Transaction): String = {
     balance += transaction.amount
-
     formatDate(transaction.date) + " " + formatAmount(transaction.amount) + " " + formatAmount(balance)
   }
 

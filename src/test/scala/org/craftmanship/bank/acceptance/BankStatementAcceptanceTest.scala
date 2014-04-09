@@ -7,7 +7,6 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
     scenario("statement with no transactions") {
 
       Given("a bank account with no transactions")
-      val account = application createNewAccount
 
       When("when I print a statement")
       account printStatement
@@ -19,7 +18,6 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
     scenario("statement containing multiple deposits and withdrawals"){
 
       Given("a bank account with multiple deposits and withdrawals")
-      val account = application createNewAccount()
       application setDateTo(2014, 04, 01)
       account.deposit(100)
       account.withdrawal(50)
@@ -39,4 +37,5 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       )
     }
   }
+  val account = application createNewAccount
 }
