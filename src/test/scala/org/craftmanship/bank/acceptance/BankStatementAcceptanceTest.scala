@@ -1,11 +1,10 @@
 package org.craftmanship.bank.acceptance
 
-
 class BankStatementAcceptanceTest extends AcceptanceSpec {
 
   feature("Print bank statement") {
-    scenario("statement with no transactions") {
 
+    scenario("bank statement with no transactions") {
       Given("a bank account with no transactions")
 
       When("when I print a statement")
@@ -15,8 +14,7 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       application checkThatPrinterReceives List("DATE AMOUNT BALANCE")
     }
 
-    scenario("statement containing multiple deposits and withdrawals"){
-
+    scenario("bank statement containing multiple deposits and withdrawals"){
       Given("a bank account with multiple deposits and withdrawals")
       application setDateTo(2014, 04, 01)
       account.deposit(100)
@@ -27,7 +25,7 @@ class BankStatementAcceptanceTest extends AcceptanceSpec {
       When("when I print a statement")
       account printStatement
 
-      Then("the statement should have one withdrawal")
+      Then("the statement should have multiple deposits and withdrawals and update the balance")
       application checkThatPrinterReceives List(
         "DATE AMOUNT BALANCE",
         "01/04/2014 100.00 100.00",
